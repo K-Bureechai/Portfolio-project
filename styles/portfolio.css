@@ -23,6 +23,14 @@ p {
     font-size: 24px;
     line-height: 35px;
 }
+.navbar>.container-fluid{
+    padding: 0px 140px;
+
+}
+.container {
+    padding: 100px 80px;
+    
+}
 
 .shecodes-logo {
     max-width: 10%;
@@ -34,12 +42,50 @@ p {
     background-image: url(/styles/overlay.png);
     padding: 50px;
     background-repeat: no-repeat;
-    display: block;
-    margin: 0 auto;
-
 }
 
 .col-6.h3 {
     font-size: 28px;
 }
 
+#secound-row,
+#third-row,
+#forth-row {
+    margin-top: 50px;
+}
+
+.food-name {
+    font-size: 28px;
+    line-height: 38.19px;
+}
+
+@media only screen and (max-width: 767px) {
+    .container {
+        padding:20px;
+    }
+
+    #secound-row,
+    #third-row,
+    #forth-row {
+        margin-top: 0px;
+    }
+
+    .navbar>.container-fluid {
+        flex-wrap: nowrap;
+        padding: 20px;
+    }
+
+    .shecodes-logo {
+        max-width: 30%;
+    }
+    h1 {
+        font-size: 52px;
+    }
+    p {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .food-name {
+        font-size: 24px;
+    }
+}
