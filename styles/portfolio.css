@@ -39,7 +39,7 @@ p {
 .hero {
     text-align: center;
     color: white;
-    background-image: url(/styles/overlay.png);
+    background-image: url(/styles/home-image/overlay.png);
     padding: 50px;
     background-repeat: no-repeat;
 }
