@@ -24,6 +24,7 @@ h2 {
 h3 {
     font-size: 36px;
 }
+
 h4 {
     font-size: 24px;
 }
@@ -144,7 +145,8 @@ h5 {
 }
 
 
-.social-icons, .ingredient{
+.social-icons,
+.ingredient {
     display: flex;
     align-items: flex-start;
     font-size: 20px;
@@ -200,6 +202,25 @@ h5 {
     display: block;
     margin: 0 auto;
 }
+
 .recipe {
     margin: 42px 0;
+}
+
+#border-bottom-dashed p {
+    padding: 10px 0px;
+    border-bottom: 1px dashed #67D5D2;
+    margin-bottom: 0;
+
+}
+
+.long-line {
+    padding-bottom: 25px;
+    margin-bottom: 38px;
+    border-bottom: 1px dashed #67D5D2;
+}
+
+.steps {
+    font-weight: 800;
+    color: #F65282;
 }
