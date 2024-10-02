@@ -211,8 +211,8 @@ h5 {
     padding: 10px 0px;
     border-bottom: 1px dashed #67D5D2;
     margin-bottom: 0;
-
 }
+
 
 .long-line {
     padding-bottom: 25px;
@@ -223,4 +223,11 @@ h5 {
 .steps {
     font-weight: 800;
     color: #F65282;
+    padding-top: 10px;
+}
+@media only screen and (max-width: 820px) {
+.long-line {
+        margin-bottom: 25px;
+    }
+
 }
