@@ -50,7 +50,9 @@ nav {
     overflow: hidden;
 
 }
-
+.sidebar li.active a {
+    color: var(--tertiary-color);
+}
 nav ul {
     list-style: none;
     display: flex;
