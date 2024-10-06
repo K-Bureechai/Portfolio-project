@@ -45,9 +45,9 @@ nav {
     padding: 0;
     background-color: white;
     box-shadow: 3px 3px 5px rgb(0, 0, 0, 0.1);
-position: sticky;
-top: 0;
-overflow: hidden;
+    position: sticky;
+    top: 0;
+    overflow: hidden;
 
 }
 
@@ -104,8 +104,7 @@ nav li:first-child {
     cursor: pointer;
 }
 
-.sidebar li,
-a {
+.sidebar li {
     width: 100%;
 }
 
