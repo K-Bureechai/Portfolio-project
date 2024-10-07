@@ -50,7 +50,7 @@ nav {
     overflow: hidden;
 
 }
-.sidebar li.active a {
+#active a {
     color: var(--tertiary-color);
 }
 nav ul {
@@ -80,6 +80,7 @@ nav a:hover,
 li:hover {
     color: var(--tertiary-color);
     cursor: pointer;
+    
 }
 
 nav li:first-child {
@@ -221,7 +222,7 @@ h5 {
     }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 500px) {
     .footer p {
         margin-bottom: 0;
         font-size: 12px;
